@@ -1,10 +1,10 @@
 # Employee Performance Analysis and Prediction
 
-#### Introduction
+## Introduction
 
 This project aims to analyze and predict employee performance using machine learning techniques. The dataset used in this project contains various features related to employee demographics, educational background, job details, and performance ratings. The analysis involves data preprocessing, exploratory data analysis (EDA), feature engineering, and modeling using different algorithms.
 
-#### Data Preprocessing
+## Data Preprocessing
 
 The code starts by importing the necessary libraries for data manipulation, visualization, and machine learning tasks. It then loads the dataset into a pandas DataFrame and performs the following preprocessing steps:
 
@@ -22,7 +22,7 @@ The code starts by importing the necessary libraries for data manipulation, visu
 
 **7. Saving Preprocessed Data:** The preprocessed data is saved as a CSV file for further analysis and modeling.
 
-#### Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 The code performs a comprehensive EDA to understand the dataset better and gain insights into the relationships between different features and the target variable (PerformanceRating). The EDA includes:
 
@@ -38,7 +38,7 @@ The code performs a comprehensive EDA to understand the dataset better and gain 
 
 The EDA section also includes checks for skewness, kurtosis, and distribution of mean and standard deviation of the data.
 
-#### Modeling and Evaluation
+## Modeling and Evaluation
 
 The code splits the preprocessed data into training and testing sets and balances the target variable using the SMOTE (Synthetic Minority Over-sampling Technique) technique. It then trains and evaluates three different machine learning models:
 
@@ -50,11 +50,11 @@ The code splits the preprocessed data into training and testing sets and balance
 
 The code compares the performance of these three models and selects the best-performing model based on the evaluation metrics.
 
-#### Saving the Model
+## Saving the Model
 
 The code saves the best-performing model (Multilayer Perceptron Classifier) using the pickle library for future use.
 
-#### Conclusion
+## Conclusion
 
 The GitHub post provides a detailed overview of the code, covering data preprocessing, exploratory data analysis, modeling, and evaluation steps. It highlights the various techniques and algorithms used in the project and showcases the in-depth analysis performed on the employee performance dataset.
 
